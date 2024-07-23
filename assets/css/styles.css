@@ -47,7 +47,7 @@
 }
 
 .section-carousel{
-    width: 1500px;
+    width: 100%;
 }
 
 .titulo-viajeschile{
@@ -56,5 +56,7 @@
 }
 
 @media (max-width: 576px) {
-    
+    .titulo-quienessomos, .body-quienessomos, .hr-quienessomos{
+        display: none;   
+    }
   }
